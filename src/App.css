@@ -1,0 +1,34 @@
+:root {
+  --padding: 20rem;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+.header {
+  position: fixed;
+  background-color: aliceblue;
+  top: 0;
+  width: 100%;
+}
+
+.alpha {
+  margin-top: 2rem;
+  padding: var(--padding);
+  background-color: aqua;
+}
+
+.beta {
+  padding: var(--padding);
+  background-color: red;
+}
+
+.gamma {
+  padding: var(--padding);
+  background-color: pink;
+}
+
+.active {
+  background-color: blueviolet;
+}
